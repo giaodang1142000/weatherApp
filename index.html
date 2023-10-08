@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="flex">
+        <div class="left">
+          <div class="title">
+            <h1>16&deg;</h1>
+          </div>
+          <div class="mainLocation">
+            <h2 class="location">Helsinki</h2>
+            <p class="time">06:09 - Monday, 27 Sep 23</p>
+          </div>
+          <div class="weatherIcon">
+            <!-- <img class="imgIcon" src="./public//sunny and cloudy.png" alt="" /> -->
+            <i class="fa fa-cloud-sun"></i>
+            <p>Cloudy</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="containerDetailWeather">
+            <div class="search">
+              <input class="input" type="text" placeholder="Another location" />
+              <div class="searchIcon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+            <ul>
+              <li>Helsinki</li>
+              <li>Lahti</li>
+              <li>Tampere</li>
+              <li>Turku</li>
+            </ul>
+            <div class="information">
+                <h3 class="header">Weather Details</h3>
+                <div class="detailWeather">
+                  <ul>
+                    <li class="climateInfo">
+                      <span>Sunrise</span>
+                      <span>6:00</span>
+                    </li>
+                    <li class="climateInfo">
+                      <span>Sunset</span>
+                      <span>18:00</span>
+                    </li>
+                    <li class="climateInfo">
+                      <span>Humidity</span>
+                      <span>75%</span>
+                    </li>
+                    <li class="climateInfo">
+                      <span>Wind</span>
+                      <span>8km/h</span>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <button class="next">Next days</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
